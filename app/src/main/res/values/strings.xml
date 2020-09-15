@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SimpleToDo</string>
+    <color name="navy">#1E3C5A</color>
+    <color name="coral">#FA7369</color>
+    <color name="darkBlue">#001E3C</color>
+    <color name="white">#ffffff</color>
+    <color name="blue">#1E3C78</color>
 </resources>

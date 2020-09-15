@@ -13,9 +13,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="2dp"
-        android:layout_marginBottom="1dp"
-        android:text="Add" />
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:text="Add"
+        android:background="@color/coral"
+        android:textColor="@color/white"
+        />
 
     <EditText
         android:id="@+id/edtItem"
@@ -26,10 +29,14 @@
         android:layout_marginStart="0dp"
         android:layout_marginEnd="0dp"
         android:layout_marginBottom="0dp"
+        android:padding="10dp"
         android:layout_toStartOf="@+id/btnAdd"
         android:ems="10"
         android:hint="Add an item here"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:background="@color/coral"
+        android:textColor="@color/white"
+        />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvItems"
@@ -41,5 +48,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginBottom="0dp"
+        android:background="@color/navy"
+        android:textColor="@color/white"
+        />
 </RelativeLayout>
